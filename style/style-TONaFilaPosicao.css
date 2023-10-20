@@ -117,7 +117,7 @@ a {
 }
 
 footer {
-    margin: 20px 20px 05px 20px;
+    margin: 05px 20px 05px 20px;
     width: fit-content;
     text-align: center;
     align-self: center;
@@ -128,7 +128,7 @@ footer {
 
 .redirect-button {
     display: block;
-    margin: 20px auto;
+    margin: 10px auto;
     padding: 10px 15px;
     background-color: var(--color-blue);
     color: var(--color-white);
