@@ -1,4 +1,5 @@
-# hackathon-2023-Projeto "TO na Fila"
+#Projeto "TO na Fila"
+
 ### Descrição
 O projeto "TO na Fila" foi desenvolvido para fortalecer a transparência e combater irregularidades nas filas de espera do sistema de saúde do Tocantins. Através desta plataforma, os pacientes podem consultar sua posição nas filas de espera do Hospital Geral de Palmas (HGP), UBSs e UPAs.
 
@@ -7,15 +8,15 @@ Para poder utilizar e adaptar o projeto em outros equipamentos/sistemas, os segu
 
 ### 1. Navegador:
 Compatibilidade com os últimos navegadores, como:
-Google Chrome
-Mozilla Firefox
-Safari
-Microsoft Edge
+• Google Chrome
+• Mozilla Firefox
+• Safari
+• Microsoft Edge
 
 ### 2. Linguagens utilizadas no projeto:
-HTML5
-CSS3
-JavaScript
+• HTML5
+• CSS3
+• JavaScript
 
 ### 3. Recursos:
 Acesso a imagens e arquivos CSS.
