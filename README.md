@@ -14,8 +14,11 @@ Compatibilidade com os últimos navegadores, como:
 • Microsoft Edge
 
 ### 2. Linguagens utilizadas no projeto:
+
 • HTML5
+
 • CSS3
+
 • JavaScript
 
 ### 3. Recursos:
@@ -27,8 +30,11 @@ Arquivos JavaScript para funcionalidades específicas.
 
 ### Instruções de Instalação
 • Faça o download ou clone o repositório do projeto.
+
 • Transfira os arquivos para o diretório raiz do seu servidor web.
+
 • Garanta que todas as imagens, arquivos CSS e JavaScript estejam no local correto e sejam acessíveis.
+
 • Abra o arquivo index.html ou equivalente em um navegador compatível para visualizar o projeto.
 
 ### Estrutura de Arquivos
