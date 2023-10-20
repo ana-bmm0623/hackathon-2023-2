@@ -53,6 +53,15 @@ h4 a{
     height: auto;
 }
 
+#image-logo-site {
+    border-radius: 50%;  
+    position: absolute;   
+    right: 10px;         
+    top: 10px; 
+    bottom: 10px;  
+    width: 50px;
+}
+
 body {
     font-family: Inter, sans-serif;
     display: flex;
