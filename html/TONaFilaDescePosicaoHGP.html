@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style/style-tonalistadesceposicao.css">
+    <link rel="stylesheet" href="/style/style-TONaFilaDescePosicao.css">
+    <script src="/script/TONaFilaDescePosicao.js" defer></script>
     <title>TO na lista</title>
 </head>
 
 <body>
     <header>
-        <img src="images\logo-estado.png" alt="Logo do estado">
-
-        <h4>CONSULTAR POSIÇÃO NA FILA</h4>
+        <a href="https://www.to.gov.br/saude" target="_blank"><img id="image-logo-estado" src="/images/logo-estado.png" alt="Logo do estado"></a>
+        <h4><a href="/html/TONaFilaAcessoUBS.html">CONSULTAR POSIÇÃO NA FILA DA UBS</a></h4>
+        <h4><a href="/html/TONaFilaAcessoUPA.html">CONSULTAR POSIÇÃO NA FILA DA UPA</a></h4>
     </header>
 
     <aside class="sidebar">
@@ -58,47 +59,18 @@
             <span class="info-data">-</span>
         </div>
 
-        <!-- Observação -->
-        <div class="info-row">
-            <span class="info-label">OBSERVAÇÃO:</span>
-            <span class="info-data">-</span>
-        </div>
-
     </main>
 
     <footer>
         <a href="#">Percebeu alguma irregularidade? Informe à Ouvidoria</a>
     </footer>
 
-    <!-- Modal Pop-up -->
+
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <p>O paciente da posição 44 foi para a 4ª posição acima de você.</p>
         </div>
-
-        <script>window.onload = function() {
-            // Mostrar a modal
-            var modal = document.getElementById("myModal");
-            var span = document.getElementsByClassName("close")[0];
-        
-            modal.style.display = "block";
-        
-            span.onclick = function() {
-                modal.style.display = "none";
-            }
-        
-            window.onclick = function(event) {
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                }
-            }
-        
-            // Atualizar a posição
-            var positionSpan = document.querySelector("h1 span");
-            var currentPosition = parseInt(positionSpan.textContent, 10);
-            positionSpan.textContent = (currentPosition + 4).toString();
-        }</script>
     </div>
 </body>
 

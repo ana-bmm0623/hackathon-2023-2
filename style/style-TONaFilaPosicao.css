@@ -21,10 +21,10 @@ header {
     padding: 0 10%;
     background-color: var(--color-white);
     border-bottom: 1px solid var(--color-gray);
-    color: var(--color-blue);
     height: 56px;
     justify-content: space-between;
     gap: 3 rem;
+    border-top: 2px solid var(--color-yellow);
 }
 
 h1 {
@@ -38,22 +38,27 @@ h4 {
     margin-right: 10px;
     font-size: small;
 }
+ 
+h4 a{
+    color: var(--color-blue);
+}
 
-img {
+#image-logo-estado {
     margin-left: 40px;
-    width: 200px;
+    width: 200px; 
+    height: auto;
 }
 
 body {
     font-family: Inter, sans-serif;
-    display: flex;         
-    flex-direction: column; 
-    min-height: 100%; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
-main{
-    flex: 1;                
-    overflow: auto;  
+main {
+    flex: 1;
+    overflow: auto;
 }
 
 .sidebar {
@@ -61,7 +66,7 @@ main{
     flex-direction: column;
     background-color: var(--color-blue);
     width: 150px;
-    height: 120%;
+    height: 100%;
     position: absolute;
     float: left;
     margin-left: 0;
@@ -72,14 +77,14 @@ main{
     max-width: 400px;
     border: 1px solid #ccc;
     padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px var(--color-gray-dark, 0.1);
 }
 
 .info-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 30px 30px 200px;
+    margin: 20px 30px 20px 200px;
 }
 
 .info-label {
@@ -95,54 +100,19 @@ main{
     border-radius: 4px;
 
 }
-a{
+
+a {
     color: var(--color-yellow);
     text-decoration: none;
     font-weight: bold;
 }
+
 footer {
-    margin: 10px 20px 05px 20px;
+    margin: 20px 20px 05px 20px;
     width: fit-content;
     text-align: center;
-    align-self: center;     
+    align-self: center;
     background-color: var(--color-blue);
-    padding: 10px;  
-    border-radius: 10px;       
-}
-
-/* Modal Styles */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-.modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-}
-
-.close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
 }

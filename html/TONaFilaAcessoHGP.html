@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style-TONaFilaAcesso.css">
+    <script src="/script/TONaFilaAcessoHGP.js" defer></script>
+    <title>TO na lista - Acesso</title>
+</head>
+
+<body>
+    <header>
+        <a href="https://www.to.gov.br/saude" target="_blank"><img id="image-logo-estado" src="/images/logo-estado.png" alt="Logo do estado"></a>
+        <h4><a href="/html/TONaFilaAcessoUBS.html">CONSULTAR POSIÇÃO NA FILA DA UBS</a></h4>
+        <h4><a href="/html/TONaFilaAcessoUPA.html">CONSULTAR POSIÇÃO NA FILA DA UPA</a></h4>
+    </header>
+
+    <aside class="sidebar">
+    </aside>
+    <main>
+        <h1>ACESSO À SUA POSIÇÃO NA FILA NO HGP</h1>
+
+        <form id="loginForm">
+            <div class="input-row">
+                <label for="cns">Número do Cartão Nacional de Saúde (CNS):</label>
+                <input type="text" id="cns" name="cns" required>
+            </div>
+
+            <div class="input-row">
+                <label for="cpf">CPF:</label>
+                <input type="text" id="cpf" name="cpf" required>
+            </div>
+
+            <div class="input-row">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+            </div>
+
+            <div class="submit-row">
+                <input type="submit" value="Acessar">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <a href="#">Percebeu alguma irregularidade? Informe à Ouvidoria</a>
+    </footer>
+</body>
+
+</html>
